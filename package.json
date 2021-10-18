@@ -4,7 +4,11 @@
   "description": "Starter pack for frontend website and web application",
   "main": "index.html",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   },
   "repository": {
     "type": "git",
@@ -17,7 +21,7 @@
   },
   "homepage": "https://github.com/unimrgm/start_frontend#readme",
   "dependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.27.5",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   }
